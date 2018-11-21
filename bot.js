@@ -8,17 +8,17 @@ client.on('message', message => {
 
 if (message.content.startsWith('Rwt')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
-  client.user.setStatus("dnd")
+  client.user.setStatus("Idle")
     message.channel.send(` ** Done. :white_check_mark: ** `)
 } else 
 if (message.content.startsWith('Rls')) {
 client.user.setActivity(argresult , {type:'LISTENING'});
-  client.user.setStatus("dnd")
+  client.user.setStatus("idle")
     message.channel.send(` ** Done. :white_check_mark: ** `)
 } else 
 if (message.content.startsWith('Rst')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/raaaaaaaaaaaz");
-  client.user.setStatus("dnd")
+  client.user.setGame(argresult, "https://www.twitch.tv/iitxbro");
+  client.user.setStatus("idle")
    message.channel.send(` ** Done. :white_check_mark: ** `)
 } else 
 if (message.content.startsWith('Rpl')) {
@@ -29,8 +29,8 @@ client.user.setActivity(argresult , {type:'PLAYING'});
 }
   client.on('message', message => {//-              Ráááááz  , $!#8811 
         if (!developers.includes(message.author.id)) return;//-              Ráááááz  , $!#8811 
-  if (message.content === '911') {//-              Ráááááz  , $!#8811  
-    
+  if (message.content === '963') {//-              Ráááááz  , $!#8811 
+  
   let channel = client.channels.get('514641715651543041');//-              Ráááááz  , $!#8811 
 
   channel.join()//-              Ráááááz  , $!#8811 
