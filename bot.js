@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const developers = ['463698464845594628','514641715651543041'];
+const developers = ['343743154429755392','514641715651543041'];
 
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
@@ -8,7 +8,7 @@ client.on('message', message => {
 
 if (message.content.startsWith('Rwt')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
-  client.user.setStatus("Idle")
+  client.user.setStatus("dnd")
     message.channel.send(` ** Done. :white_check_mark: ** `)
 } else 
 if (message.content.startsWith('Rls')) {
@@ -27,15 +27,15 @@ client.user.setActivity(argresult , {type:'PLAYING'});
     message.channel.send(` ** Done. :white_check_mark: ** `)
 
 }
-  client.on('message', message => {//-              Ráááááz  , $!#8811 
-        if (!developers.includes(message.author.id)) return;//-              Ráááááz  , $!#8811 
-  if (message.content === '963') {//-              Ráááááz  , $!#8811 
+  client.on('message', message => {//iiHouSSaM#9494
+        if (!developers.includes(message.author.id)) return;//iiHouSSaM#9494
+  if (message.content === '20') {//iiHouSSaM#9494
   
-  let channel = client.channels.get('514641715651543041');//-              Ráááááz  , $!#8811 
+  let channel = client.channels.get('514641715651543041');//iiHouSSaM#9494
 
-  channel.join()//-              Ráááááz  , $!#8811 
-  .then(connection => console.log(`????`))//-              Ráááááz  , $!#8811 
-  .catch(console.error);//-              Ráááááz  , $!#8811 
+  channel.join()//iiHouSSaM#9494
+  .then(connection => console.log(`????`))//iiHouSSaM#9494
+  .catch(console.error);//iiHouSSaM#9494
   }
 });
           
