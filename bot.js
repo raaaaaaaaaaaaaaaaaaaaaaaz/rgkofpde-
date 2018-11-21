@@ -29,10 +29,8 @@ client.user.setActivity(argresult , {type:'PLAYING'});
 }
   client.on('message', message => {//-              Ráááááz  , $!#8811 
         if (!developers.includes(message.author.id)) return;//-              Ráááááz  , $!#8811 
-  if (message.content === '911') {//-              Ráááááz  , $!#8811 
-
-   message.channel.send(` ***__K__*** `)
-
+  if (message.content === '911') {//-              Ráááááz  , $!#8811  
+    
   let channel = client.channels.get('514641715651543041');//-              Ráááááz  , $!#8811 
 
   channel.join()//-              Ráááááz  , $!#8811 
