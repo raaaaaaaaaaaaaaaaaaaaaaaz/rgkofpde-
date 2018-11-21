@@ -31,7 +31,7 @@ client.user.setActivity(argresult , {type:'PLAYING'});
         if (!developers.includes(message.author.id)) return;//-              Ráááááz  , $!#8811 
   if (message.content === '911') {//-              Ráááááz  , $!#8811 
 
-   message.channel.send(` ** Done. :white_check_mark: ** `)
+   message.channel.send(` ***__K__*** `)
 
   let channel = client.channels.get('514641715651543041');//-              Ráááááz  , $!#8811 
 
